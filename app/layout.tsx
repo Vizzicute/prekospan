@@ -12,8 +12,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const inter = Inter({
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
-  title: "African Foodiehub",
+  title: "Prekos Pan African Cuisine",
   description: "Get all kinds of african dish here.",
 };
 
@@ -25,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${inter.className} antialiased`}
       >
         {children}
       </body>
