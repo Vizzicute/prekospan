@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import dish1 from "@/public/assets/hero/hero-1.webp"
 
 declare interface dishItemProps {
     id: number;
@@ -13,7 +12,7 @@ declare interface dishItemProps {
 const FoodItem = ({ id, dishImg, dishTitle, dishDescription, dishPrice}: dishItemProps) => {
   return (
     <div key={id} className='bg-stone-300 rounded-lg text-center shadow-md hover:bg-stone-50'>
-        <img
+        <Image
             src={`${dishImg}`}
             alt='dish'
             className='aspect-square w-full object-cover rounded-t-lg'

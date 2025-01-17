@@ -1,11 +1,9 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { AlignJustify } from 'lucide-react'
 import {
     Sheet,
     SheetContent,
-    SheetDescription,
     SheetHeader,
     SheetTitle,
     SheetTrigger,

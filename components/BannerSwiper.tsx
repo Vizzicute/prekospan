@@ -1,11 +1,10 @@
 "use client";
 
-import React, { useRef, useState } from 'react'
+import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react"
-import { Navigation, Pagination, Autoplay } from "swiper/modules"
+import { Pagination, Autoplay } from "swiper/modules"
 import "swiper/css"
 import 'swiper/css/pagination'
-import "swiper/css/navigation"
 import { Button } from './ui/button';
 import { ShoppingCart } from 'lucide-react'
 import { ArrowRight } from 'lucide-react'
