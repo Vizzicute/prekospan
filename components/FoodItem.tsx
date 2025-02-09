@@ -12,7 +12,7 @@ declare interface dishItemProps {
 const FoodItem = ({ id, dishImg, dishTitle, dishDescription, dishPrice}: dishItemProps) => {
   return (
     <div key={id} className='bg-stone-300 rounded-lg text-center shadow-md hover:bg-stone-50'>
-        <Image
+        <img
             src={`${dishImg}`}
             alt='dish'
             className='aspect-square w-full object-cover rounded-t-lg'
